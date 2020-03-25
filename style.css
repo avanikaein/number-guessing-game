@@ -1,0 +1,44 @@
+body{
+    font-size: 1.2em;
+    background-image: url('./bg-pattern.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#container{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: rgba(0, 0, 0);
+}
+
+.panel{
+    max-width: 80%;
+    margin: 20px auto;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+button{
+    background-color: rgb(255, 217, 0);
+    height: 3em;
+    width: 80%;
+    margin-bottom: 1.5em;
+    border-radius: 15px;
+    font-size: 0.8em;
+    font-weight: bold;
+   
+}
+
+input{
+    border-radius: 15px;
+    width: 80%;
+    height: 4em;
+    text-align: center;
+    
+}
