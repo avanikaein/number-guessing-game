@@ -12,11 +12,14 @@
             <h2>I have a a random number <br> between 1-100.</h2>
             <h3>Dare to guess?</h3>
             <hr>
+            <p>Difficulty setting:</p>
+            <button id="easyBtn" class="">Easy: Guess in 10 attempts (default)</button>
+            <button id="hardBtn" class="">Hard: Guess in 5 attempts</button>
             <button id="new-game">New Game</button>
         </div>
         <div class="panel">
             <h3 id="textOutput">Enter your guess below &amp; press enter</h3>
-            <input type="number" id="inputBox">
+            <input type="number" id="inputBox" autocomplete="off">
             <p>Number of previous attempts: <span id="attempts"></span></p>
         </div>
         <div class="panel">

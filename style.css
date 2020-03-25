@@ -40,5 +40,8 @@ input{
     width: 80%;
     height: 4em;
     text-align: center;
-    
+}
+
+.activeButton{
+    background-color: rgb(1, 238, 1);
 }
